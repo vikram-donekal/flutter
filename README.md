@@ -1,6 +1,7 @@
 ## Personalized Image viewer :
 
-# Idea: Personalized Image Viewer App to Upload,View,Download,Delete and Commenting Images for the users.
+# Use Case:
+Personalized Image Viewer App to Upload,View,Download,Delete and like Images for the users.
 
 Tech Stack : 
             Flutter (App Development)
