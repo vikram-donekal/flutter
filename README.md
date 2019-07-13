@@ -1,7 +1,6 @@
-# flutter
-personalized Image viewer:
+## Personalized Image viewer :
 
-Idea: Personalized Image Viewer App to Upload,View,Download,Delete and Commenting Images for the users.
+# Idea: Personalized Image Viewer App to Upload,View,Download,Delete and Commenting Images for the users.
 
 Tech Stack : 
             Flutter (App Development)
@@ -9,7 +8,7 @@ Tech Stack :
             Postgresql (DataBase)
 Development in Progress.
 
-Flutter: (In Progress)
+# Flutter: (In Progress)
 Flutter is Google’s portable UI toolkit for building beautiful, natively-compiled applications for mobile, web, and desktop from a single codebase.
 +Fast Development
 +Expressive and Flexible UI
@@ -17,7 +16,7 @@ Flutter is Google’s portable UI toolkit for building beautiful, natively-compi
 Link: https://flutter.dev/
 
 
-Postgresql DataBase (Completed):
+# Postgresql DataBase (Completed):
 PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. It is designed to handle a range of workloads, from single machines to data warehouses or Web services with many concurrent users.
 
 For my Use Case i have created 1 Table
@@ -27,7 +26,7 @@ Columns : id ,title,description,image_path,compressed_path
 I used to store details in Database and i have store images and compressed images in LocalDrive. 
 
 
-API :(Completed)
+# API :(Completed)
 A RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data.
 
 A RESTful API -- also referred to as a RESTful web service -- is based on representational state transfer (REST) technology, an architectural style and approach to communications often used in web services development.
@@ -46,18 +45,15 @@ For my use Case i have Developed 8 APIS as follows:
 
 To Deploy Change application properties :
 
-#PORT
+//PORT
 server.port=8080
-## PostgreSQL
+//PostgreSQL
 spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
-
-#Image Store Properties
-image.uploadDir = C:\\Users\\212721049\\Pictures\\Spring_Rest\\images_storage\\main_image
-image.templateDir= C:\\Users\\212721049\\Pictures\\Spring_Rest\\images_storage\\compressed_image
+//Image Store Properties
+image.uploadDir = C:\\Users\\Pictures\\Spring_Rest\\images_storage\\main_image
+image.templateDir= C:\\Users\\Pictures\\Spring_Rest\\images_storage\\compressed_image
 
 Command : mvn clean compile install spring-boot:run
 
 It will boot the application and will be serving APIS with PORT 8080.
-
-
 FrontEnd APP is in Development Phase.Will be Updating....        
